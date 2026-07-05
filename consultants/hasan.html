@@ -1,222 +1,163 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
+<html lang="ar" dir="rtl" data-lang="ar">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="حسن الشهري — مستشار أعمال ومالي" name="description"/>
-<meta content="#0E1530" name="theme-color"/>
-<title>حسن الشهري — Cash Clinic</title>
-<link href="../assets/img/cashclinic-logo.jpg" rel="icon" type="image/jpeg"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&amp;family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="../assets/css/style.css?v=12" rel="stylesheet"/>
-<link href="../assets/css/consultant.css?v=12" rel="stylesheet"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hasan Akbar — Cash Riyada | Cash Clinic</title>
+<meta name="description" content="Hasan Akbar — Business & Financial Consultant. Cash Riyada, Cash Clinic.">
+<link rel="icon" href="../brand/mark/mark-purple.png">
+<link rel="stylesheet" href="../assets/ds/fonts/fonts.css">
+<link rel="stylesheet" href="../assets/ds/tokens/colors.css">
+<link rel="stylesheet" href="../assets/ds/tokens/typography.css">
+<link rel="stylesheet" href="../assets/ds/tokens/spacing.css">
+<link rel="stylesheet" href="../assets/ds/tokens/effects.css">
+<link rel="stylesheet" href="../assets/ds/tokens/base.css">
+<link rel="stylesheet" href="../assets/css/site.css">
 </head>
-<body>
+<body style="--accent:#2F8789;--accent-soft:#D6EAF2;">
 
-<header class="site-header">
-  <div class="container">
-    <nav class="nav">
-      <a class="brand" href="../index.html">
-        <div class="brand-mark"><img alt="Cash Clinic" src="../assets/img/cashclinic-logo.jpg"/></div>
-        <div class="brand-name"><span class="blue">Cash</span><span class="orange">Clinic.</span></div>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="../index.html#clinics" data-en="Clinics">عياداتنا</a></li>
-        <li><a href="../index.html#consultants" data-en="Consultants">استشاريونا</a></li>
-        <li><a href="../policy.html" data-en="Policy">السياسة</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button aria-label="Switch language" class="lang-toggle" id="langToggle">EN</button>
-        <button aria-label="Menu" class="menu-toggle" id="menuToggle">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
+<header class="cc-header">
+  <div class="cc-header-in">
+    <a class="cc-logo" href="../index.html">
+      <img src="../brand/mark/mark-purple.png" width="40" height="40" alt="Cash Clinic">
+      <span>cash <strong style="font-weight:600;">clinic</strong></span>
+    </a>
+    <nav class="cc-nav-links">
+      <a class="cc-navlink" href="../index.html#clinics" data-ar="عياداتنا" data-en="Clinics">عياداتنا</a>
+      <a class="cc-navlink" href="../index.html#consultants" data-ar="استشاريونا" data-en="Consultants">استشاريونا</a>
+      <a class="cc-navlink" href="../index.html#how" data-ar="كيف نعمل" data-en="How It Works">كيف نعمل</a>
+      <a class="cc-navlink" href="../policy.html" data-ar="السياسة" data-en="Policy">السياسة</a>
     </nav>
+    <div class="cc-header-cta">
+      <button class="cc-langbtn" data-langbtn type="button">EN</button>
+      <a class="cc-btn cc-btn-wa wa" data-wa-msg="السلام عليكم، أبي أستفسر عن خدمات عيادة كاش كلينك" href="https://wa.me/96522260820" style="font-size:15px;padding:11px 20px;">
+        <svg class="cc-wa-ico" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.04 4C9.9 4 4.92 8.98 4.92 15.12c0 2.02.53 3.98 1.55 5.72L4 28l7.34-1.92a11.1 11.1 0 0 0 4.7 1.05h.01c6.14 0 11.12-4.98 11.12-11.12C27.17 8.98 22.18 4 16.04 4Zm0 20.3h-.01a9.2 9.2 0 0 1-4.69-1.28l-.34-.2-3.9 1.02 1.04-3.8-.22-.35a9.17 9.17 0 0 1-1.4-4.9c0-5.08 4.13-9.2 9.22-9.2 2.46 0 4.77.96 6.51 2.7a9.14 9.14 0 0 1 2.7 6.51c0 5.08-4.13 9.2-9.22 9.2Zm5.05-6.89c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.17-.43-2.22-1.37-.82-.73-1.38-1.63-1.54-1.91-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.48-.84-2.02-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.47.07-.72.35-.25.28-.95.93-.95 2.27 0 1.34.97 2.63 1.11 2.81.14.18 1.9 2.9 4.6 4.06.64.28 1.14.44 1.53.57.64.2 1.23.17 1.69.1.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33Z"/></svg><span data-ar="استفسر عبر واتساب" data-en="Ask on WhatsApp">استفسر عبر واتساب</span>
+      </a>
+    </div>
   </div>
 </header>
 
-<main class="consultant-profile">
-  <div class="container">
-    <a class="back-link" href="../index.html#consultants" data-en='<span class="arrow">←</span> Back to Consultants'>
-      <span class="arrow">←</span> العودة للاستشاريين
-    </a>
+<section class="cc-wrap" style="padding-top:34px;padding-bottom:80px;">
+  <a class="cc-back" href="../index.html#consultants">
+    <span data-ar="→ العودة للاستشاريين" data-en="← Back to Consultants">→ العودة للاستشاريين</span>
+  </a>
 
-    <div class="profile-grid">
-      <div class="profile-content">
-
-        <section class="profile-section">
-          <h2 data-en="About the consultant">عن المستشار</h2>
-          <div class="bio-text">
-            <p data-en="Accountant specialized in business management, with over 6 years of experience as regional manager for a Gulf company in technology and transportation (Kuwait - Oman - Dubai - Abu Dhabi - Egypt). Experienced in leading operations across multiple markets simultaneously.">
-              محاسب متخصص في إدارة الشركات، بخبرة تمتد لأكثر من 6 سنوات كمدير إقليمي لشركة خليجية في مجال التكنولوجيا والمواصلات (الكويت - سلطنة عمان - دبي - أبوظبي - مصر). ذو خبرة في قيادة العمليات عبر أسواق متعددة في آن واحد.
-            </p>
-            <p data-en="Business development consultant with a strong record working with service, industrial, and tech companies. Former executive director at a Kuwaiti design and manufacturing company, and operations manager at one of Kuwait's largest private logistics firms — overseeing more than 2,300 shipments daily.">
-              مستشار تطوير أعمال مع سجل حافل بالعمل مع شركات خدماتية وصناعية وتقنية متعددة. مدير تنفيذي سابق في شركة كويتية متخصصة في التصميم والتصنيع، ومدير عمليات في إحدى أكبر الشركات اللوجستية الخاصة في الكويت — بإشراف على أكثر من 2,300 شحنة يومياً.
-            </p>
-            <p data-en="Consultant in investment rounds and company valuation for small, medium, and startup projects. Founder of specialized courses in professional cash management, financial crisis recovery, and investment rounds. Former assistant manager in banking (accounting and credit - Boubyan Bank), winner of the Best Employee award in support administrations for 2016 and 2017.">
-              مستشار في مجال الجولات الاستثمارية وتقييم الشركات للمشاريع الصغيرة والمتوسطة والناشئة. مؤسس دورات متخصصة في إدارة الكاش باحترافية، والخروج من الأزمات المالية للشركات، والجولات الاستثمارية. مساعد مدير سابق في قطاع البنوك (محاسبة وائتمان - بنك بوبيان)، حاصل على جائزة أفضل موظف في قطاع الإدارات المساندة لعامَي 2016 و2017.
-            </p>
-          </div>
-
-          <div class="credentials-grid">
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Financial Statement Analysis">تحليل القوائم المالية</h3>
-                <p data-en="Banking Studies Institute — Distinction">معهد الدراسات المصرفية — امتياز</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
+  <div class="cc-cons-grid">
+    <!-- MAIN -->
+    <div>
+      <div class="cc-cons-card">
+        <span class="cc-cons-chip">Cash Riyada</span>
+        <h2 class="cc-cons-h" data-ar="عن المستشار" data-en="About the consultant">عن المستشار</h2>
+        <div class="cc-cons-bio">
+            <p data-ar="محاسب متخصص في إدارة الشركات، بخبرة تمتد لأكثر من 6 سنوات كمدير إقليمي لشركة خليجية في مجال التكنولوجيا والمواصلات (الكويت - عمان - دبي - أبوظبي - مصر). ذو خبرة في قيادة العمليات عبر أسواق متعددة في آن واحد." data-en="An accountant specialized in business management, with over 6 years of experience as regional manager for a Gulf technology and transportation company (Kuwait, Oman, Dubai, Abu Dhabi, Egypt), leading operations across multiple markets simultaneously.">محاسب متخصص في إدارة الشركات، بخبرة تمتد لأكثر من 6 سنوات كمدير إقليمي لشركة خليجية في مجال التكنولوجيا والمواصلات (الكويت - عمان - دبي - أبوظبي - مصر). ذو خبرة في قيادة العمليات عبر أسواق متعددة في آن واحد.</p>
+            <p data-ar="مستشار تطوير أعمال مع سجل حافل بالعمل مع شركات خدماتية وصناعية وتقنية. مدير تنفيذي سابق في شركة كويتية للتصميم والتصنيع، ومدير عمليات في إحدى أكبر الشركات اللوجستية الخاصة في الكويت — بإشراف على أكثر من 2,300 شحنة يومياً." data-en="A business development consultant with a strong record across service, industrial, and tech companies. Former executive director at a Kuwaiti design and manufacturing firm, and operations manager at one of Kuwait’s largest private logistics companies — overseeing 2,300+ shipments daily.">مستشار تطوير أعمال مع سجل حافل بالعمل مع شركات خدماتية وصناعية وتقنية. مدير تنفيذي سابق في شركة كويتية للتصميم والتصنيع، ومدير عمليات في إحدى أكبر الشركات اللوجستية الخاصة في الكويت — بإشراف على أكثر من 2,300 شحنة يومياً.</p>
+            <p data-ar="مستشار في الجولات الاستثمارية وتقييم الشركات للمشاريع الصغيرة والمتوسطة والناشئة. مؤسس دورات متخصصة في إدارة الكاش والخروج من الأزمات المالية. مساعد مدير سابق في قطاع البنوك، وحاصل على جائزة أفضل موظف لعامَي 2016 و2017." data-en="A consultant in investment rounds and company valuation for small, medium, and startup projects. Founder of specialized courses in cash management and financial crisis recovery. Former assistant bank manager and winner of the Best Employee award in 2016 and 2017.">مستشار في الجولات الاستثمارية وتقييم الشركات للمشاريع الصغيرة والمتوسطة والناشئة. مؤسس دورات متخصصة في إدارة الكاش والخروج من الأزمات المالية. مساعد مدير سابق في قطاع البنوك، وحاصل على جائزة أفضل موظف لعامَي 2016 و2017.</p>
             </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Diploma &amp; B.Sc. Accounting">دبلوم وبكالوريوس محاسبة</h3>
-                <p data-en="Certified Institute">معهد معتمد</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Financial Settlements">التسويات المالية</h3>
-                <p data-en="Visa &amp; Mastercard Certified">معتمد من Visa &amp; Mastercard</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="BNPL Managers Program">برنامج مديري BNPL</h3>
-                <p data-en="Visa &amp; Mastercard Certified">معتمد من Visa &amp; Mastercard</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Professional Time Management">إدارة الوقت الاحترافية</h3>
-                <p data-en="Certified">شهادة معتمدة</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Emotional Intelligence">الذكاء العاطفي</h3>
-                <p data-en="Certified">شهادة معتمدة</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-            <div class="credential-card">
-              <div>
-                <h3 data-en="Excel — Advanced Level (Level 3)">Excel المستوى المتقدم (Level 3)</h3>
-                <p data-en="Certified">شهادة معتمدة</p>
-              </div>
-              <div class="credential-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 1L8.5 4.5 5 3 5 8 1 11l3.5 3L3 18l4.5-1L8 22l4-3 4 3 .5-5 4.5 1L19.5 14 23 11l-4-3V3l-3.5 1.5L12 1zm0 4.5l2.5 2.5 3.5-.5-.5 3.5L20 13l-2.5 2.5.5 3.5-3.5-.5L12 21l-2.5-2.5-3.5.5.5-3.5L4 13l2.5-2.5-.5-3.5L9.5 8 12 5.5z"/><path d="M10 12l1.5 1.5L15 10" fill="none" stroke="#0E1530" stroke-width="1.5"/></svg>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="profile-section">
-          <h2 data-en="Expertise &amp; Services">الخبرة والخدمات</h2>
-          <div class="services-grid">
-            <div class="service-card">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-              </div>
-              <h3 data-en="Investment Rounds &amp; Valuation">الجولات الاستثمارية والتقييم</h3>
-              <p data-en="Consulting on investment rounds and company valuation for small, medium, and startup projects.">استشارات في الجولات الاستثمارية وتقييم الشركات للمشاريع الصغيرة والمتوسطة والناشئة.</p>
-            </div>
-            <div class="service-card">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 2L4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12" y2="16"/></svg>
-              </div>
-              <h3 data-en="Financial Crisis Recovery">الخروج من الأزمات المالية</h3>
-              <p data-en="Strategic guidance to help companies recover from financial crises.">توجيه استراتيجي لمساعدة الشركات على الخروج من الأزمات المالية.</p>
-            </div>
-            <div class="service-card">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg>
-              </div>
-              <h3 data-en="Cash Management">إدارة الكاش</h3>
-              <p data-en="Professional management and optimization of corporate cash flow.">إدارة وتحسين التدفق النقدي للشركات باحترافية.</p>
-            </div>
-            <div class="service-card">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="8" y2="17"/><line x1="12" y1="11" x2="12" y2="17"/><line x1="16" y1="15" x2="16" y2="17"/></svg>
-              </div>
-              <h3 data-en="Financial Statement Analysis">تحليل القوائم المالية</h3>
-              <p data-en="In-depth analysis of financial statements to support decision-making.">تحليل معمّق للقوائم المالية لدعم اتخاذ القرار.</p>
-            </div>
-            <div class="service-card">
-              <div class="service-icon">
-                <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-              </div>
-              <h3 data-en="Business Development">تطوير الأعمال</h3>
-              <p data-en="Strategic business development across services, industry, and tech sectors.">تطوير الأعمال الاستراتيجي في القطاعات الخدماتية والصناعية والتقنية.</p>
-            </div>
-          </div>
-        </section>
-
       </div>
 
-      <aside class="profile-sidebar">
-        <div class="profile-card">
-          <div class="profile-photo">
-            <img src="../assets/img/hasan.jpg" alt="حسن الشهري"/>
-            <span class="online-dot"></span>
-          </div>
-          <h1 class="profile-name" data-en="Hasan Al-Shihri">حسن الشهري</h1>
-          <p class="profile-title" data-en="Business &amp; Financial Consultant">مستشار أعمال ومالي</p>
-          <span class="profile-badge">Certified Financial Planner (CFP)</span>
-        </div>
+      <div class="cc-cons-card">
+        <h2 class="cc-cons-h" data-ar="الشهادات والاعتمادات" data-en="Credentials & Certifications">الشهادات والاعتمادات</h2>
+        <div class="cc-cred-grid">
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">تحليل القوائم المالية</div><div class="cc-cred-sub">معهد الدراسات المصرفية — امتياز</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">دبلوم وبكالوريوس محاسبة</div><div class="cc-cred-sub">معهد معتمد</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">التسويات المالية</div><div class="cc-cred-sub">معتمد من Visa & Mastercard</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">برنامج مديري BNPL</div><div class="cc-cred-sub">معتمد من Visa & Mastercard</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">إدارة الوقت الاحترافية</div><div class="cc-cred-sub">شهادة معتمدة</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">الذكاء العاطفي</div><div class="cc-cred-sub">شهادة معتمدة</div></div></div>
+            <div class="cc-cred"><span class="dot"></span><div>
+              <div class="cc-cred-h">Excel المستوى المتقدم (Level 3)</div><div class="cc-cred-sub">شهادة معتمدة</div></div></div>
+            </div>
+      </div>
 
-        <div class="profile-stats">
-          <div class="profile-stat">
-            <strong>+50</strong>
-            <span data-en="clients helped">عميل تم مساعدته</span>
-          </div>
-          <div class="profile-stat">
-            <strong>+6</strong>
-            <span data-en="years of experience">سنوات الخبرة</span>
-          </div>
-        </div>
-
-        <a href="../clinics/cash-riyada.html" class="profile-book-btn" data-en="Book a Session →">احجز جلسة معها →</a>
-      </aside>
+      <div class="cc-cons-card">
+        <h2 class="cc-cons-h" data-ar="الخبرة والخدمات" data-en="Expertise & Services">الخبرة والخدمات</h2>
+        <div class="cc-svc-grid">
+            <div class="cc-svc"><div class="cc-svc-bar"></div>
+              <h3 class="cc-svc-h">الجولات الاستثمارية والتقييم</h3><p class="cc-svc-p">استشارات في الجولات الاستثمارية وتقييم الشركات الصغيرة والمتوسطة والناشئة.</p></div>
+            <div class="cc-svc"><div class="cc-svc-bar"></div>
+              <h3 class="cc-svc-h">الخروج من الأزمات المالية</h3><p class="cc-svc-p">توجيه استراتيجي لمساعدة الشركات على الخروج من الأزمات.</p></div>
+            <div class="cc-svc"><div class="cc-svc-bar"></div>
+              <h3 class="cc-svc-h">إدارة الكاش</h3><p class="cc-svc-p">إدارة وتحسين التدفق النقدي للشركات باحترافية.</p></div>
+            <div class="cc-svc"><div class="cc-svc-bar"></div>
+              <h3 class="cc-svc-h">تحليل القوائم المالية</h3><p class="cc-svc-p">تحليل معمّق للقوائم المالية لدعم اتخاذ القرار.</p></div>
+            <div class="cc-svc"><div class="cc-svc-bar"></div>
+              <h3 class="cc-svc-h">تطوير الأعمال</h3><p class="cc-svc-p">تطوير الأعمال الاستراتيجي في القطاعات الخدماتية والصناعية والتقنية.</p></div>
+            </div>
+      </div>
     </div>
-  </div>
-</main>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-bottom">
-      <div data-en="© 2026 Cash Clinic. All rights reserved.">© 2026 Cash Clinic. جميع الحقوق محفوظة.</div>
-      <div class="social-links">
-        <a href="https://instagram.com/cash.clinc" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+    <!-- SIDEBAR -->
+    <aside class="cc-cons-side">
+      <div class="cc-cons-sidecard">
+        <div class="cc-cons-photo">
+          <img class="blob" src="../brand/blobs/blob-riyada.png" alt="" aria-hidden="true">
+          <div class="pic"><img src="../assets/img/hasan.jpg" alt="Hasan Akbar"></div>
+        </div>
+        <h1 class="cc-cons-name" data-ar="حسن أكبر" data-en="Hasan Akbar">حسن أكبر</h1>
+        <p class="cc-cons-title" data-ar="مستشار أعمال ومالي" data-en="Business & Financial Consultant">مستشار أعمال ومالي</p>
+        <div class="cc-cons-stats">
+          <div class="cc-cons-stat"><b>+50</b><span data-ar="عميل تم مساعدته" data-en="clients helped">عميل تم مساعدته</span></div>
+          <div class="cc-cons-stat"><b>+6</b><span data-ar="سنوات الخبرة" data-en="years of experience">سنوات الخبرة</span></div>
+        </div>
+        <a class="cc-btn cc-btn-wa wa" data-wa-msg="السلام عليكم، أبي أستفسر عن الاستشارات مع حسن أكبر في عيادة كاش ريادة" href="https://wa.me/96522260820">
+          <svg class="cc-wa-ico" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.04 4C9.9 4 4.92 8.98 4.92 15.12c0 2.02.53 3.98 1.55 5.72L4 28l7.34-1.92a11.1 11.1 0 0 0 4.7 1.05h.01c6.14 0 11.12-4.98 11.12-11.12C27.17 8.98 22.18 4 16.04 4Zm0 20.3h-.01a9.2 9.2 0 0 1-4.69-1.28l-.34-.2-3.9 1.02 1.04-3.8-.22-.35a9.17 9.17 0 0 1-1.4-4.9c0-5.08 4.13-9.2 9.22-9.2 2.46 0 4.77.96 6.51 2.7a9.14 9.14 0 0 1 2.7 6.51c0 5.08-4.13 9.2-9.22 9.2Zm5.05-6.89c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.17-.43-2.22-1.37-.82-.73-1.38-1.63-1.54-1.91-.16-.28-.02-.43.12-.57.13-.13.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.49-.07-.14-.61-1.48-.84-2.02-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.47.07-.72.35-.25.28-.95.93-.95 2.27 0 1.34.97 2.63 1.11 2.81.14.18 1.9 2.9 4.6 4.06.64.28 1.14.44 1.53.57.64.2 1.23.17 1.69.1.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33Z"/></svg><span data-ar="تواصل عبر واتساب" data-en="Contact on WhatsApp">تواصل عبر واتساب</span>
         </a>
-        <a href="mailto:contact@cashclinic.net" aria-label="Email">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        </a>
-        <a href="tel:+96522260820" aria-label="Phone">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </a>
+        <a class="cc-cons-pkglink" href="../clinics/cash-riyada.html" data-ar="تصفّح باقات العيادة →" data-en="← Browse clinic packages">تصفّح باقات العيادة →</a>
       </div>
+    </aside>
+  </div>
+</section>
+
+<footer style="background:var(--cc-ink);color:var(--cc-purple-100);margin-top:72px;">
+  <div class="cc-wrap" style="padding-top:64px;padding-bottom:34px;">
+    <div class="cc-footer-grid">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:12px;">
+          <img src="../brand/mark/mark-cream.png" width="38" height="38" alt="Cash Clinic">
+          <span style="font-size:22px;font-weight:300;color:var(--cc-cream);">cash <strong style="font-weight:600;">clinic</strong></span>
+        </div>
+        <p style="font-size:15px;line-height:1.7;color:var(--cc-purple-300);margin:18px 0 0;max-width:34ch;" data-ar="نشخّص، نعالج، ونطوّر حياتك المالية. عيادة الصحة المالية الأولى في الكويت." data-en="We diagnose, treat, and develop your financial life. Kuwait's leading financial wellness clinic.">نشخّص، نعالج، ونطوّر حياتك المالية. عيادة الصحة المالية الأولى في الكويت.</p>
+      </div>
+      <div>
+        <h4 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-cream);margin:0 0 16px;" data-ar="العيادات" data-en="Clinics">العيادات</h4>
+        <div style="display:flex;flex-direction:column;gap:11px;">
+          <a href="../clinics/cash-nas.html" style="font-size:15px;color:var(--cc-purple-200);">Cash Nas</a>
+          <a href="../clinics/cash-invest.html" style="font-size:15px;color:var(--cc-purple-200);">Cash Invest</a>
+          <a href="../clinics/cash-riyada.html" style="font-size:15px;color:var(--cc-purple-200);">Cash Riyada</a>
+        </div>
+      </div>
+      <div>
+        <h4 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-cream);margin:0 0 16px;" data-ar="روابط" data-en="Links">روابط</h4>
+        <div style="display:flex;flex-direction:column;gap:11px;">
+          <a href="../index.html#clinics" style="font-size:15px;color:var(--cc-purple-200);" data-ar="عياداتنا" data-en="Clinics">عياداتنا</a>
+          <a href="../index.html#consultants" style="font-size:15px;color:var(--cc-purple-200);" data-ar="استشاريونا" data-en="Consultants">استشاريونا</a>
+          <a href="../index.html#how" style="font-size:15px;color:var(--cc-purple-200);" data-ar="كيف نعمل" data-en="How It Works">كيف نعمل</a>
+          <a href="../policy.html" style="font-size:15px;color:var(--cc-purple-200);" data-ar="السياسة" data-en="Policy">السياسة</a>
+        </div>
+      </div>
+      <div>
+        <h4 style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-cream);margin:0 0 16px;" data-ar="تواصل" data-en="Contact">تواصل</h4>
+        <div style="display:flex;flex-direction:column;gap:11px;font-size:15px;">
+          <a href="tel:+96522260820" style="color:var(--cc-purple-200);" dir="ltr">+965 22260820</a>
+          <a href="mailto:contact@cashclinic.net" style="color:var(--cc-purple-200);">contact@cashclinic.net</a>
+          <a href="https://instagram.com/cash.clinc" target="_blank" rel="noopener" style="color:var(--cc-purple-200);">@cash.clinc</a>
+          <a href="https://cashclinic.net" target="_blank" rel="noopener" style="color:var(--cc-purple-200);">cashclinic.net</a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,231,188,.16);margin-top:44px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13.5px;color:var(--cc-purple-300);">
+      <span data-ar="© 2026 كاش كلينك. جميع الحقوق محفوظة." data-en="© 2026 Cash Clinic. All rights reserved.">© 2026 كاش كلينك. جميع الحقوق محفوظة.</span>
+      <a href="../policy.html" style="color:var(--cc-purple-300);" data-ar="سياسة المواعيد" data-en="Appointment Policy">سياسة المواعيد</a>
     </div>
   </div>
 </footer>
 
-<script src="../assets/js/main.js?v=12"></script>
+<script src="../assets/js/i18n.js"></script>
 </body>
 </html>
